@@ -19,7 +19,13 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    @IBAction func buttonClick(_ sender: Any) {
+        self.textField.text = "Chris"
+    }
 
+    @IBOutlet weak var textField: UITextField!
 
 }
 

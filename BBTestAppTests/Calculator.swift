@@ -1,0 +1,23 @@
+//
+//  Calculator.swift
+//  BBTestAppTests
+//
+//  Created by Chris Stott on 2016-11-20.
+//  Copyright © 2016 Chris Stott. All rights reserved.
+//
+
+import Foundation
+
+class Calculator {
+    class func Add(a: Int, b: Int) -> Int {
+        return a + b
+    }
+    
+    class func Subtract(a: Int, b: Int) -> Int {
+        return a - b
+    }
+    
+    class func Multiply(a: Int, b: Int) -> Int {
+        return a * b
+    }
+}

@@ -14,6 +14,8 @@
 		831EB4241DE2649200902AB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 831EB4221DE2649200902AB9 /* LaunchScreen.storyboard */; };
 		831EB42F1DE2649200902AB9 /* BBTestAppTestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831EB42E1DE2649200902AB9 /* BBTestAppTestsTests.swift */; };
 		831EB43A1DE2649200902AB9 /* BBTestAppTestsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831EB4391DE2649200902AB9 /* BBTestAppTestsUITests.swift */; };
+		831EB4481DE2659300902AB9 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831EB4471DE2659300902AB9 /* Calculator.swift */; };
+		831EB44A1DE2663500902AB9 /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831EB4491DE2663500902AB9 /* CalculatorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		831EB4351DE2649200902AB9 /* BBTestAppTestsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBTestAppTestsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		831EB4391DE2649200902AB9 /* BBTestAppTestsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBTestAppTestsUITests.swift; sourceTree = "<group>"; };
 		831EB43B1DE2649200902AB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		831EB4471DE2659300902AB9 /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		831EB4491DE2663500902AB9 /* CalculatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 				831EB4201DE2649200902AB9 /* Assets.xcassets */,
 				831EB4221DE2649200902AB9 /* LaunchScreen.storyboard */,
 				831EB4251DE2649200902AB9 /* Info.plist */,
+				831EB4471DE2659300902AB9 /* Calculator.swift */,
 			);
 			path = BBTestAppTests;
 			sourceTree = "<group>";
@@ -112,6 +117,7 @@
 			children = (
 				831EB42E1DE2649200902AB9 /* BBTestAppTestsTests.swift */,
 				831EB4301DE2649200902AB9 /* Info.plist */,
+				831EB4491DE2663500902AB9 /* CalculatorTests.swift */,
 			);
 			path = BBTestAppTestsTests;
 			sourceTree = "<group>";
@@ -264,6 +270,7 @@
 			files = (
 				831EB41C1DE2649200902AB9 /* ViewController.swift in Sources */,
 				831EB41A1DE2649200902AB9 /* AppDelegate.swift in Sources */,
+				831EB4481DE2659300902AB9 /* Calculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				831EB42F1DE2649200902AB9 /* BBTestAppTestsTests.swift in Sources */,
+				831EB44A1DE2663500902AB9 /* CalculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
