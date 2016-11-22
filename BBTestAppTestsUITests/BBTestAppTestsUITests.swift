@@ -37,7 +37,7 @@ class BBTestAppTestsUITests: XCTestCase {
         XCTAssertTrue(textField.value as! String == "Chris")
     }
     
-    func testFatal() {
-        fatalError()
-    }
+//    func testFatal() {
+//        fatalError()
+//    }
 }

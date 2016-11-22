@@ -25,4 +25,12 @@ class CalculatorTests: XCTestCase {
         XCTAssertEqual(Calculator.Add(a: 1, b: 2), 3)
     }
     
+    func testSubtract() {
+        XCTAssertEqual(Calculator.Subtract(a: 2, b: 1), 1)
+    }
+    
+    func testMultiply() {
+        XCTAssertEqual(Calculator.Multiply(a: 3, b: 5), 15);
+    }
+    
 }

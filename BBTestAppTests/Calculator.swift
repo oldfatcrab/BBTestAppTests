@@ -18,6 +18,10 @@ class Calculator {
     }
     
     class func Multiply(a: Int, b: Int) -> Int {
+        if (a == 7) {
+            return 7 * a * b
+        }
+        
         return a * b
     }
 }
