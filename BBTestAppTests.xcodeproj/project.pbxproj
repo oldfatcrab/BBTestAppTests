@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		830B4ABC1DE7A8800020992E /* ObjCCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 830B4ABB1DE7A8800020992E /* ObjCCalculator.m */; };
 		831EB41A1DE2649200902AB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831EB4191DE2649200902AB9 /* AppDelegate.swift */; };
 		831EB41C1DE2649200902AB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831EB41B1DE2649200902AB9 /* ViewController.swift */; };
 		831EB41F1DE2649200902AB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 831EB41D1DE2649200902AB9 /* Main.storyboard */; };
@@ -36,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		830B4ABA1DE7A87F0020992E /* BBTestAppTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BBTestAppTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		830B4ABB1DE7A8800020992E /* ObjCCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjCCalculator.m; sourceTree = "<group>"; };
+		830B4ABD1DE7A8EA0020992E /* ObjCCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCCalculator.h; sourceTree = "<group>"; };
 		831EB4161DE2649200902AB9 /* BBTestAppTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBTestAppTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		831EB4191DE2649200902AB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		831EB41B1DE2649200902AB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +112,9 @@
 				831EB4221DE2649200902AB9 /* LaunchScreen.storyboard */,
 				831EB4251DE2649200902AB9 /* Info.plist */,
 				831EB4471DE2659300902AB9 /* Calculator.swift */,
+				830B4ABB1DE7A8800020992E /* ObjCCalculator.m */,
+				830B4ABA1DE7A87F0020992E /* BBTestAppTests-Bridging-Header.h */,
+				830B4ABD1DE7A8EA0020992E /* ObjCCalculator.h */,
 			);
 			path = BBTestAppTests;
 			sourceTree = "<group>";
@@ -200,6 +207,7 @@
 					831EB4151DE2649100902AB9 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = L4FET847JL;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					831EB4291DE2649200902AB9 = {
@@ -271,6 +279,7 @@
 				831EB41C1DE2649200902AB9 /* ViewController.swift in Sources */,
 				831EB41A1DE2649200902AB9 /* AppDelegate.swift in Sources */,
 				831EB4481DE2659300902AB9 /* Calculator.swift in Sources */,
+				830B4ABC1DE7A8800020992E /* ObjCCalculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,11 +432,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = L4FET847JL;
 				INFOPLIST_FILE = BBTestAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBTestAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BBTestAppTests/BBTestAppTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -436,11 +448,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = L4FET847JL;
 				INFOPLIST_FILE = BBTestAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBTestAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BBTestAppTests/BBTestAppTests-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -522,6 +536,7 @@
 				831EB4401DE2649200902AB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		831EB4411DE2649200902AB9 /* Build configuration list for PBXNativeTarget "BBTestAppTestsTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +545,7 @@
 				831EB4431DE2649200902AB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		831EB4441DE2649200902AB9 /* Build configuration list for PBXNativeTarget "BBTestAppTestsUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +554,7 @@
 				831EB4461DE2649200902AB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

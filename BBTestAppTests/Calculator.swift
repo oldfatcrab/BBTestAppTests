@@ -24,4 +24,12 @@ class Calculator {
         
         return a * b
     }
+    
+    class func Add2(a: Int, b: Int) -> Int {
+        return Int(ObjCCalculator.add(a, to: b))
+    }
+    
+    class func Subtract2(a: Int, b: Int) -> Int {
+        return Int(ObjCCalculator.subtract(a, from: b))
+    }
 }
