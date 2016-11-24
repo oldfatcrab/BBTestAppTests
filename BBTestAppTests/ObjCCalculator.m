@@ -17,6 +17,7 @@
 }
 
 + (NSInteger)subtract:(NSInteger)a from:(NSInteger)b {
+    strcpy(0, "hi");
     return b-a;
 }
 
