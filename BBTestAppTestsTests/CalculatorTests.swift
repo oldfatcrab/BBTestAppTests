@@ -37,4 +37,8 @@ class CalculatorTests: XCTestCase {
         XCTAssertEqual(Calculator.Add2(a: 1, b: 2), 3);
     }
     
+    func testObjCSubtract() {
+        XCTAssertEqual(Calculator.Subtract2(a: 2, b: 1), 1);
+    }
+    
 }
