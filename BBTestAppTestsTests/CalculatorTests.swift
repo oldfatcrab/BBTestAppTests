@@ -25,6 +25,10 @@ class CalculatorTests: XCTestCase {
         XCTAssertEqual(Calculator.Add(a: 1, b: 2), 3)
     }
     
+    func testObjCSubtract() {
+        XCTAssertEqual(Calculator.Subtract2(a: 2, b: 1), 1);
+    }
+    
     func testSubtract() {
         XCTAssertEqual(Calculator.Subtract(a: 2, b: 1), 1)
     }
@@ -36,9 +40,6 @@ class CalculatorTests: XCTestCase {
     func testObjCAdd() {
         XCTAssertEqual(Calculator.Add2(a: 1, b: 2), 3);
     }
-    
-    func testObjCSubtract() {
-        XCTAssertEqual(Calculator.Subtract2(a: 2, b: 1), 1);
-    }
+
     
 }
