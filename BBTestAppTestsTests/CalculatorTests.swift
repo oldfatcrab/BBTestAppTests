@@ -36,10 +36,6 @@ class CalculatorTests: XCTestCase {
     func testMultiply() {
         XCTAssertEqual(Calculator.Multiply(a: 3, b: 5), 15);
     }
-    
-    func testObjCAdd() {
-        XCTAssertEqual(Calculator.Add2(a: 1, b: 2), 3);
-    }
 
     
 }
