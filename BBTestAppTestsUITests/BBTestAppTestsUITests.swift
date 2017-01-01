@@ -34,7 +34,7 @@ class BBTestAppTestsUITests: XCTestCase {
         app.buttons["Hello"].tap()
         
         let textField = app.otherElements.containing(.button, identifier:"Hello").children(matching: .textField).element
-        XCTAssertTrue(textField.value as! String == "Chris")
+        XCTAssertTrue(textField.value as! String == "Chris2")
     }
     
 //    func testFatal() {
