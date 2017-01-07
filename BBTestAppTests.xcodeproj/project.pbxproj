@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FE3381FFE014B1229AF3944 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B8E0E782A2ADF54D8DA83E /* CoreText.framework */; };
+		514EA85F3F8DE78ED00B5643 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BAAF451E12BB31358D30935 /* CoreTelephony.framework */; };
+		71C3FA71959D26E11526FB2A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C70F97FCDD9360750A7E00F /* SystemConfiguration.framework */; };
+		8289D9D8E5B5166C98B3CE31 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E55B6047A365DF683ADBA8 /* BuddyBuildSDK.framework */; };
 		831EB41A1DE2649200902AB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831EB4191DE2649200902AB9 /* AppDelegate.swift */; };
 		831EB41C1DE2649200902AB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831EB41B1DE2649200902AB9 /* ViewController.swift */; };
 		831EB41F1DE2649200902AB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 831EB41D1DE2649200902AB9 /* Main.storyboard */; };
@@ -16,6 +20,11 @@
 		831EB43A1DE2649200902AB9 /* BBTestAppTestsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831EB4391DE2649200902AB9 /* BBTestAppTestsUITests.swift */; };
 		831EB4481DE2659300902AB9 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831EB4471DE2659300902AB9 /* Calculator.swift */; };
 		831EB44A1DE2663500902AB9 /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831EB4491DE2663500902AB9 /* CalculatorTests.swift */; };
+		9B0A421BD4FEC6150D6E8A01 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02F3BD9FE6205D52C880B8D6 /* CoreMedia.framework */; };
+		B18397F9D93DF9CD65093C59 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8644785D7E0E6F6BF85F1DA3 /* CoreVideo.framework */; };
+		B9DED1A09BD1801A728148F9 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA833BDCA87C4096F840AFF /* AssetsLibrary.framework */; };
+		C974128E89A49BDBDD4035C6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11D384AAFCC014CCF6F227EF /* QuartzCore.framework */; };
+		EF11E166320C339F41447C7B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51589DC35081C7F4792C94E5 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02F3BD9FE6205D52C880B8D6 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		11D384AAFCC014CCF6F227EF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		11E55B6047A365DF683ADBA8 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		1CA833BDCA87C4096F840AFF /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		4C70F97FCDD9360750A7E00F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		51589DC35081C7F4792C94E5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		67B8E0E782A2ADF54D8DA83E /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		778E5A1E90D7F9F754A0ADED /* Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		7BAAF451E12BB31358D30935 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		831EB4161DE2649200902AB9 /* BBTestAppTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBTestAppTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		831EB4191DE2649200902AB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		831EB41B1DE2649200902AB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +69,7 @@
 		831EB43B1DE2649200902AB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		831EB4471DE2659300902AB9 /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 		831EB4491DE2663500902AB9 /* CalculatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorTests.swift; sourceTree = "<group>"; };
+		8644785D7E0E6F6BF85F1DA3 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8289D9D8E5B5166C98B3CE31 /* BuddyBuildSDK.framework in Frameworks */,
+				B9DED1A09BD1801A728148F9 /* AssetsLibrary.framework in Frameworks */,
+				2FE3381FFE014B1229AF3944 /* CoreText.framework in Frameworks */,
+				514EA85F3F8DE78ED00B5643 /* CoreTelephony.framework in Frameworks */,
+				71C3FA71959D26E11526FB2A /* SystemConfiguration.framework in Frameworks */,
+				C974128E89A49BDBDD4035C6 /* QuartzCore.framework in Frameworks */,
+				EF11E166320C339F41447C7B /* AVFoundation.framework in Frameworks */,
+				9B0A421BD4FEC6150D6E8A01 /* CoreMedia.framework in Frameworks */,
+				B18397F9D93DF9CD65093C59 /* CoreVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +106,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		448D9AB21710E560357B45A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11E55B6047A365DF683ADBA8 /* BuddyBuildSDK.framework */,
+				1CA833BDCA87C4096F840AFF /* AssetsLibrary.framework */,
+				67B8E0E782A2ADF54D8DA83E /* CoreText.framework */,
+				7BAAF451E12BB31358D30935 /* CoreTelephony.framework */,
+				4C70F97FCDD9360750A7E00F /* SystemConfiguration.framework */,
+				11D384AAFCC014CCF6F227EF /* QuartzCore.framework */,
+				51589DC35081C7F4792C94E5 /* AVFoundation.framework */,
+				02F3BD9FE6205D52C880B8D6 /* CoreMedia.framework */,
+				8644785D7E0E6F6BF85F1DA3 /* CoreVideo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		831EB40D1DE2649100902AB9 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +129,8 @@
 				831EB42D1DE2649200902AB9 /* BBTestAppTestsTests */,
 				831EB4381DE2649200902AB9 /* BBTestAppTestsUITests */,
 				831EB4171DE2649200902AB9 /* Products */,
+				448D9AB21710E560357B45A6 /* Frameworks */,
+				778E5A1E90D7F9F754A0ADED /* Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -424,10 +470,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L4FET847JL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = BBTestAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBTestAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -437,10 +488,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L4FET847JL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = BBTestAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBTestAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -522,6 +578,7 @@
 				831EB4401DE2649200902AB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		831EB4411DE2649200902AB9 /* Build configuration list for PBXNativeTarget "BBTestAppTestsTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +587,7 @@
 				831EB4431DE2649200902AB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		831EB4441DE2649200902AB9 /* Build configuration list for PBXNativeTarget "BBTestAppTestsUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +596,7 @@
 				831EB4461DE2649200902AB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
