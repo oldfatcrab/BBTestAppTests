@@ -13,10 +13,12 @@
 @implementation ObjCCalculator
 
 + (NSInteger)add:(NSInteger)a to:(NSInteger)b {
+    NSLog(@"ObjCCalculator::add");
     return a + b;
 }
 
 + (NSInteger)subtract:(NSInteger)a from:(NSInteger)b {
+    NSLog(@"ObjCCalculator::subtract");
     strcpy(0, "hi2");
     return b-a;
 }
