@@ -37,6 +37,195 @@ class BBTestAppTestsUITests: XCTestCase {
         XCTAssertTrue(textField.value as! String == "Chris2")
     }
     
+    func testExample1() {
+        
+        let app = XCUIApplication()
+        app.buttons["Hello"].tap()
+        
+        let textField = app.otherElements.containing(.button, identifier:"Hello").children(matching: .textField).element
+        XCTAssertTrue(textField.value as! String == "Chris2")
+    }
+    
+    func testExample2() {
+        
+        let app = XCUIApplication()
+        app.buttons["Hello"].tap()
+        
+        let textField = app.otherElements.containing(.button, identifier:"Hello").children(matching: .textField).element
+        XCTAssertTrue(textField.value as! String == "Chris2")
+    }
+    
+    func testExample3() {
+        
+        let app = XCUIApplication()
+        app.buttons["Hello"].tap()
+        
+        let textField = app.otherElements.containing(.button, identifier:"Hello").children(matching: .textField).element
+        XCTAssertTrue(textField.value as! String == "Chris2")
+    }
+    
+    func testExample4() {
+        
+        let app = XCUIApplication()
+        app.buttons["Hello"].tap()
+        
+        let textField = app.otherElements.containing(.button, identifier:"Hello").children(matching: .textField).element
+        XCTAssertTrue(textField.value as! String == "Chris2")
+    }
+    
+    func testExample5() {
+        
+        let app = XCUIApplication()
+        app.buttons["Hello"].tap()
+        
+        let textField = app.otherElements.containing(.button, identifier:"Hello").children(matching: .textField).element
+        XCTAssertTrue(textField.value as! String == "Chris2")
+    }
+    
+    func testExample6() {
+        
+        let app = XCUIApplication()
+        app.buttons["Hello"].tap()
+        
+        let textField = app.otherElements.containing(.button, identifier:"Hello").children(matching: .textField).element
+        XCTAssertTrue(textField.value as! String == "Chris2")
+    }
+    
+    func testExample7() {
+        
+        let app = XCUIApplication()
+        app.buttons["Hello"].tap()
+        
+        let textField = app.otherElements.containing(.button, identifier:"Hello").children(matching: .textField).element
+        XCTAssertTrue(textField.value as! String == "Chris2")
+    }
+    
+    func testExample8() {
+        
+        let app = XCUIApplication()
+        app.buttons["Hello"].tap()
+        
+        let textField = app.otherElements.containing(.button, identifier:"Hello").children(matching: .textField).element
+        XCTAssertTrue(textField.value as! String == "Chris2")
+    }
+    
+    func testExample9() {
+        
+        let app = XCUIApplication()
+        app.buttons["Hello"].tap()
+        
+        let textField = app.otherElements.containing(.button, identifier:"Hello").children(matching: .textField).element
+        XCTAssertTrue(textField.value as! String == "Chris2")
+    }
+    
+    func testExample10() {
+        
+        let app = XCUIApplication()
+        app.buttons["Hello"].tap()
+        
+        let textField = app.otherElements.containing(.button, identifier:"Hello").children(matching: .textField).element
+        XCTAssertTrue(textField.value as! String == "Chris2")
+    }
+    
+    func testExample11() {
+        
+        let app = XCUIApplication()
+        app.buttons["Hello"].tap()
+        
+        let textField = app.otherElements.containing(.button, identifier:"Hello").children(matching: .textField).element
+        XCTAssertTrue(textField.value as! String == "Chris2")
+    }
+    
+    func testExample12() {
+        
+        let app = XCUIApplication()
+        app.buttons["Hello"].tap()
+        
+        let textField = app.otherElements.containing(.button, identifier:"Hello").children(matching: .textField).element
+        XCTAssertTrue(textField.value as! String == "Chris2")
+    }
+    
+    func testExample13() {
+        
+        let app = XCUIApplication()
+        app.buttons["Hello"].tap()
+        
+        let textField = app.otherElements.containing(.button, identifier:"Hello").children(matching: .textField).element
+        XCTAssertTrue(textField.value as! String == "Chris2")
+    }
+    
+    func testExample14() {
+        
+        let app = XCUIApplication()
+        app.buttons["Hello"].tap()
+        
+        let textField = app.otherElements.containing(.button, identifier:"Hello").children(matching: .textField).element
+        XCTAssertTrue(textField.value as! String == "Chris2")
+    }
+    
+    func testExample15() {
+        
+        let app = XCUIApplication()
+        app.buttons["Hello"].tap()
+        
+        let textField = app.otherElements.containing(.button, identifier:"Hello").children(matching: .textField).element
+        XCTAssertTrue(textField.value as! String == "Chris2")
+    }
+    
+    func testExample16() {
+        
+        let app = XCUIApplication()
+        app.buttons["Hello"].tap()
+        
+        let textField = app.otherElements.containing(.button, identifier:"Hello").children(matching: .textField).element
+        XCTAssertTrue(textField.value as! String == "Chris2")
+    }
+    
+    func testExample17() {
+        
+        let app = XCUIApplication()
+        app.buttons["Hello"].tap()
+        
+        let textField = app.otherElements.containing(.button, identifier:"Hello").children(matching: .textField).element
+        XCTAssertTrue(textField.value as! String == "Chris2")
+    }
+    
+    func testExample18() {
+        
+        let app = XCUIApplication()
+        app.buttons["Hello"].tap()
+        
+        let textField = app.otherElements.containing(.button, identifier:"Hello").children(matching: .textField).element
+        XCTAssertTrue(textField.value as! String == "Chris2")
+    }
+    
+    func testExample19() {
+        
+        let app = XCUIApplication()
+        app.buttons["Hello"].tap()
+        
+        let textField = app.otherElements.containing(.button, identifier:"Hello").children(matching: .textField).element
+        XCTAssertTrue(textField.value as! String == "Chris2")
+    }
+    
+    func testExample20() {
+        
+        let app = XCUIApplication()
+        app.buttons["Hello"].tap()
+        
+        let textField = app.otherElements.containing(.button, identifier:"Hello").children(matching: .textField).element
+        XCTAssertTrue(textField.value as! String == "Chris2")
+    }
+    
+    func testExample21() {
+        
+        let app = XCUIApplication()
+        app.buttons["Hello"].tap()
+        
+        let textField = app.otherElements.containing(.button, identifier:"Hello").children(matching: .textField).element
+        XCTAssertTrue(textField.value as! String == "Chris2")
+    }
+    
 //    func testFatal() {
 //        fatalError()
 //    }
