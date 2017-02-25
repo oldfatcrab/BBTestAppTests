@@ -22,7 +22,9 @@ class CalculatorTests: XCTestCase {
     }
     
     func testAdd() {
+        NSLog("NSLog testExample before add");
         XCTAssertEqual(Calculator.Add(a: 1, b: 2), 3)
+        NSLog("NSLog testExample after add");
     }
     
     func testSubtract() {

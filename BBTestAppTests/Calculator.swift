@@ -10,6 +10,7 @@ import Foundation
 
 class Calculator {
     class func Add(a: Int, b: Int) -> Int {
+        NSLog("NSLog during add");
         return a + b
     }
     
