@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func buttonClick(_ sender: Any) {
-        self.textField.text = "Chris"
+        self.textField.text = 99
     }
 
     @IBOutlet weak var textField: UITextField!
