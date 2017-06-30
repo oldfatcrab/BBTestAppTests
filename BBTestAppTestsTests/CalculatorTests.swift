@@ -30,7 +30,7 @@ class CalculatorTests: XCTestCase {
     }
     
     func testMultiply() {
-        XCTAssertEqual(Calculator.Multiply(a: 3, b: 5), 24);
+        XCTAssertEqual(Calculator.Multiply(a: 3, b: 5), 23);
     }
     
 }
